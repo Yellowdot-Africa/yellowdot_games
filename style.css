@@ -1,0 +1,278 @@
+* {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+}
+html {
+  line-height: 1.15;
+  scroll-behavior: smooth;
+  font-family: Inter;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: normal;
+  line-height: 1.15;
+}
+p,
+li,
+ul,
+pre,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure,
+blockquote,
+figcaption {
+  margin: 0;
+  padding: 0;
+}
+button {
+  background-color: transparent;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  padding: 0;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+button:-moz-focus,
+[type="button"]:-moz-focus,
+[type="reset"]:-moz-focus,
+[type="submit"]:-moz-focus {
+  outline: 1px dotted ButtonText;
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+input {
+  padding: 2px 4px;
+}
+img {
+  display: block;
+  /* width: 100%; */
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 800;
+  font-size: 16px;
+  margin: 40px 0 10px;
+}
+.btn {
+  border: 1px solid #000000;
+  border-radius: 20px;
+  padding: 8px 15px;
+  font-weight: 800;
+}
+
+.page-container{
+  background-color: #FFCB05;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 500px;
+  min-width: 300px;
+  padding: 0 10px;
+  position: relative;
+}
+.page{
+  padding: 3% 7%;
+}
+.menu-burger{
+  margin-right: 7px;
+}
+
+.badge{
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+}
+.f20{
+  font-size: 20px;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center-col{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.flex{
+  display: flex;
+}
+.flex-col{
+  display: flex;
+  flex-direction: column;
+}
+.justify-btw{
+  display: flex;
+  justify-content: space-between;
+}
+.align-center{
+  display: flex;
+  align-items: center;
+}
+/* SIDE NAVIGATION*/
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: -300px;
+  background-color: #000000;
+  overflow-x: hidden;
+  transition: 0.5s;
+  border-radius: 50px 0 0 50px;
+}
+.sidenav-logo{
+  padding:40px 20px;
+
+}
+
+/* The navigation menu links */
+.sidenav_menu {
+  padding-left: 30px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #FFCB05;
+  transition: 0.3s;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.sidenav_menu{
+  display: flex;
+  align-items: center;
+}
+.sidenav_menu img{
+  margin-right: 20px;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.closenplaymore{
+ padding-left: 50px;
+
+}
+ .closebtn {
+  font-size: 50px;
+  font-weight: 100;
+  color: #ffffff;
+  text-align: center;
+
+}
+.playmore{
+  border: 1px solid #FFCB05;
+  color: #FFCB05;
+  display: block;
+  font-size: 18px;
+  padding: 10px;
+  line-height: 1.4;
+  width: 150px;
+  text-align: center;
+}
+
+/* BOTTOM NAVIGATION */
+.bottomnav{
+  justify-content: space-evenly;
+  background-color: #000000;
+  padding: 10px 30px 20px;
+  position: sticky;
+  bottom: 0;
+  overflow: hidden;
+  width: 100%;
+  border-radius: 70px 70px 150px 150px;
+  margin: 0 auto;
+}
+.bottomnav a {
+  display: grid;
+  place-items: center;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 10px;
+  margin: 0 10px;
+}
+.bottomnav svg{
+  margin-bottom: 10px;
+}
+
+.bottomnav a:hover, svg:hover {
+  /* background: #f1f1f1; */
+  color: #FFCB05;
+  stroke: #FFCB05;
+}
+
+.bottomnav a.active, svg.active {
+  color: #FFCB05;
+  stroke: #FFCB05;
+}
+svg {
+  width: 18px;
+  height: 19px;
+  stroke: white;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+
+
+.overlay {
+  border: 2px solid black;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #F0E00B;
+  opacity: 0.5;
+  width: 100%;
+  transition: ease-in 2s;
+  behavior: smooth;
+}
+
+.hidden{
+  display: none;
+}

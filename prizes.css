@@ -1,0 +1,81 @@
+.prize-page-content {
+    text-align: center;
+  }
+.performance-text {
+  padding: 10px;
+  background-color: #000;
+  color: #ffcb05;
+  border-radius: 20px;
+  font-weight: 800;
+  width: 274px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.prize-page-content p:nth-child(2) {
+  margin: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.airtimes {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 0 0 50px 50px;
+  margin-bottom: 30px;
+}
+
+.cont-play-btn {
+  padding: 10px;
+  background-color: #000;
+  color: #ffcb05;
+  border-radius: 20px;
+  font-weight: 800;
+  padding: 10px 20px;
+  position: relative;
+  bottom: -20px;
+  text-align: center;
+}
+
+/* TABLE */
+table{
+    border-collapse: collapse;
+}
+
+td {
+  border: 1px solid #000;
+  border-collapse: collapse;
+  text-align: left;
+  padding: 8px;
+}
+
+.head {
+  padding: 5px 10px;
+  background-color: #000;
+  color: #ffcb05;
+}
+.table-cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.faq-btn-cont{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+}
+.faq-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffcb05;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: 700;
+    margin: 5px 0;
+}
+.rt{
+    margin-right: 10px;
+}
+.lt{
+    margin-left: 10px;
+}

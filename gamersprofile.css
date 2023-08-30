@@ -1,0 +1,148 @@
+
+nav{
+    color: #fff;
+    background-color: #000;
+    margin: 40px 0 0px;
+    padding: 20px 10px;
+}
+
+.btn {
+    border: 1px solid #fff;
+   color: #fff;
+}
+.Gamersprofile-page-content{
+    background-color: #000;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    border-radius: 0 0 50px 50px;
+    margin-bottom: 30px;
+    color: #FFCB05;
+}
+.gamers-profile{
+    padding: 0 30px;
+}
+.gamers-profile-text{
+    display: flex;
+    justify-content: space-between;
+}
+.gamers-profile-text a{
+    font-size: 22px;
+    font-weight: 700;
+    flex: 2;
+}
+.back-arrow{
+    margin-right: 20px;
+}
+.gamer-info{
+    font-size: 14px;
+}
+.gamer-info p:nth-child(2){
+    margin-top: 5px;
+    font-weight: 200;
+    color: #FFDB00;
+}
+.oval{
+    margin-right: 5px;
+}
+.points{
+    display: flex;
+   background-color: #0a0900;
+   padding: 5px;
+   margin: 10px 0;
+   border-radius: 10px;
+   font-size: 13px;
+
+}
+.points p{
+    margin-left: 10px;
+}
+.points span{
+    font-size: 11px;
+    color: #FFDB00;
+}
+
+.shape{
+    background-color: #FFCB05;
+    padding: 4px;
+    border-radius: 3px;
+}
+.lightning{
+    background-color: #FFCB05;
+    border-radius: 3px;
+    padding: 4px 6px;
+}
+
+.buy-more{
+    padding: 10px;
+    background-color: #FFF;
+    border-radius: 20px;
+    font-weight: 800;
+    padding: 10px 20px;
+    position: relative;
+    bottom: -20px;
+    color: #000;
+}
+
+.more-games-card{
+    background-color: #0a0900;
+    margin: 30px 0;
+    width: 255px;
+    /* height: 145px; */
+    border-radius: 5px;
+}
+.more-game{
+    display: flex;
+    /* justify-content: space-between; */
+    position: relative;
+    padding: 20px 10px 0;
+}
+.more-game-logo{
+    position: relative;
+    top: -35px;
+}
+.more-game-desc{
+    text-align: left;
+    margin-left: 20px;
+    align-items: flex-end;
+
+}
+.more-game-desc p:nth-child(1){
+  font-weight: 700;
+}
+.more-game-desc p:nth-child(2){
+    font-size: 12px;
+    font-weight: 200;
+    color: #FFDB00;
+    margin-top: 5px;
+    letter-spacing: 1.1px;
+}
+.more-game-detail{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+    font-size: 13px;
+    margin-top: -15px;
+    border-top: 1px solid #222;
+}
+
+.play-btn{
+    background-color: #FFCB05;
+    position: relative;
+    top: -10px;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.playtime-btn{
+    background-color: #FFCB05;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 700;
+    width: 70px;
+    padding: 2px;
+}
+.ml5{
+    margin-left: 5px;
+}

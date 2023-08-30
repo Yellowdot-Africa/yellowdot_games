@@ -1,0 +1,66 @@
+.profile-page-content{
+    text-align: center;
+}
+.performance-text{
+    padding: 10px;
+    background-color: #000;
+    color:#FFCB05;
+    border-radius: 20px;
+    font-weight: 800;
+    width: 274px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.score{
+    width: 100%;
+    margin-top: 80px;
+    background-color: #fff;
+    padding: 100px 20px 0;
+    position: relative;
+    border-radius: 0 0 50px 50px;
+    margin-bottom: 30px;
+}
+.score h2{
+    margin-bottom: 20px;
+}
+.profile-img img{
+    position: absolute;
+    top: -10%;
+    left: 30%;
+}
+.user-score{
+    position: relative;
+}
+.user-score div{
+    background-color: #000;
+    position: absolute;
+    width: 188px;
+    height: 85px;
+    top: 43%;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.1);
+}
+.user-score p, .best-score p{
+    color: #FFCB05;
+    font-weight: 800;
+    font-size: 14px;
+}
+.best-score{
+    background-color: #000;
+    width: 188px;
+    height: 95px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.1);
+}
+.cont-play-btn{
+    padding: 10px;
+    background-color: #000;
+    color:#FFCB05;
+    border-radius: 20px;
+    font-weight: 800;
+    padding: 10px 20px;
+    position: relative;
+    bottom: -20px;
+}

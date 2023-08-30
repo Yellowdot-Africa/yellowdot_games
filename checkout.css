@@ -1,0 +1,72 @@
+.page{
+    padding: 3% 3%;
+}
+
+.btn {
+    border: 1px solid #fff;
+   color: #fff;
+}
+
+
+.checkout-nav a{
+    font-size: 22px;
+    font-weight: 700;
+    flex: 2;
+    margin: 30px 0 15px;
+}
+.back-arrow{
+    margin-right: 20px;
+}
+.checkout-content-cont{
+    background-color: #FFF;
+    margin-left: -10%;
+    padding: 10px 40px;
+    margin-bottom: 50px;
+
+}
+.checkout-content{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.payment-method{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+.payment-method>p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.game-win{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.checkout-content h4{
+    align-self: flex-end;
+}
+.airtime{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+}
+.airtime div{
+    margin-left: 10px;
+}
+.airtime p:nth-child(2){
+    font-size: 12px;
+}
+
+.buy-more{
+    padding: 10px;
+    background-color: #FFF;
+    font-weight: 700;
+    padding: 10px 20px;
+    color: #000;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 26px;
+}

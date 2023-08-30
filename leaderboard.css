@@ -1,0 +1,55 @@
+.leaderboard-page-content {
+  text-align: center;
+}
+.performance-text {
+  padding: 10px;
+  background-color: #000;
+  color: #ffcb05;
+  border-radius: 20px;
+  font-weight: 800;
+  width: 274px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.leaderboard-page-content p:nth-child(2) {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.ranking {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 0 0 50px 50px;
+  margin-bottom: 30px;
+}
+.ranking img{
+    width: 100%;
+}
+.cont-play-btn {
+  padding: 10px;
+  background-color: #000;
+  color: #ffcb05;
+  border-radius: 20px;
+  font-weight: 800;
+  padding: 10px 20px;
+  position: relative;
+  bottom: -20px;
+}
+
+/* TABLE */
+/* .parent {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+} */
+.theading{
+    font-size: 12px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    background-color: #000;
+    color: #ffcb05;
+}

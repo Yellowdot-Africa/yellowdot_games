@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Play to Win Zone | Leaderboard</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <link href="./leaderboard.css" rel="stylesheet" />
+
+  <div id="main" class="page-container">
+    <div class="page">
+      <nav>
+        <p class="center">
+          <img class="badge" src="assets/leaderboard 1.svg" alt="" />
+          Leaderboard
+        </p>
+        <button class="btn center myMenuBtn">
+          <img class="menu-burger" src="assets/icons/hamburger.svg" alt="" />
+          Menu
+        </button>
+      </nav>
+
+      <!-- Leaderboard Page Content -->
+      <div class="leaderboard-page-content center-col">
+        <p class="performance-text center">Top 10 Players Rankings</p>
+        <p>
+          Climb the ranks and earn your spot at the top of the leaderboard!
+        </p>
+
+        <div class="ranking">
+          <div class="head">
+            <div class="theading">Position</div>
+            <div class="theading">Player Rating</div>
+            <div class="theading">Daily Score</div>
+            <div class="theading">Monthly Score</div>
+          </div>
+
+          <img src="assets/leaderboarddesign.svg" alt="" />
+
+          <button class="cont-play-btn" onclick="location.href='profile.html'">View My Score</button>
+        </div>
+      </div>
+
+      <!-- SIDE NAVBAR -->
+      <div id="mySidenav" class="sidenav">
+        <img class="sidenav-logo" src="assets/sampleyellodotgamesmtnpartnershiplogo.png" alt="yellowdot games logo" />
+
+        <div class="sidenav_links">
+          <a href="#" class="sidenav_menu">
+            <img src="assets/icons/home.svg" alt="" />
+            Home Page
+          </a>
+          <a href="#" class="sidenav_menu">
+            <img src="assets/icons/home.svg" alt="" />
+            User Profile
+          </a>
+          <a href="#" class="sidenav_menu">
+            <img src="assets/icons/home.svg" alt="" />
+            Leaderboard
+          </a>
+          <a href="#" class="sidenav_menu">
+            <img src="assets/icons/home.svg" alt="" />
+            Prizes
+          </a>
+          <a href="#" class="sidenav_menu">
+            <img src="assets/icons/home.svg" alt="" />
+            T’s & C’s
+          </a>
+          <a href="#" class="sidenav_menu">
+            <img src="assets/icons/home.svg" alt="" />
+            FAQ’s
+          </a>
+
+          <div class="closenplaymore">
+            <a class="playmore" href="#">Buy More <br />
+              Playtime
+            </a>
+            <a href="javascript:void(0)" class="closebtn">&times;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- BOTTOM NAVIGATION -->
+    <div class="bottomnav flex" id="mybottomNav">
+      <a href="index.html">
+        <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M17 15.0001V9.45216V9.45141C17 8.91758 17 8.65052 16.9351 8.40199C16.8775 8.18165 16.7827 7.97269 16.6548 7.78426C16.5104 7.57164 16.3096 7.39575 15.9074 7.04389L11.1074 2.84389C10.3608 2.1906 9.98751 1.864 9.56738 1.73976C9.19719 1.63028 8.80281 1.63028 8.43262 1.73976C8.01272 1.86393 7.63979 2.19025 6.894 2.84281L6.89278 2.84389L2.09277 7.04389L2.09182 7.04473C1.69032 7.39603 1.48944 7.57181 1.34521 7.78427C1.2173 7.97269 1.12255 8.18165 1.06497 8.40199C1 8.65063 1 8.91782 1 9.45216V15.0001C1 15.932 1 16.3978 1.15224 16.7654C1.35523 17.2554 1.74481 17.6448 2.23486 17.8478C2.60241 18 3.06835 18 4.00023 18C4.93211 18 5.39782 18 5.76537 17.8478C6.25542 17.6448 6.64467 17.2554 6.84766 16.7654C6.9999 16.3978 7 15.9319 7 15V14C7 12.8954 7.89543 12 9 12C10.1046 12 11 12.8954 11 14V15C11 15.9319 11 16.3978 11.1522 16.7654C11.3552 17.2554 11.7448 17.6448 12.2349 17.8478C12.6024 18 13.0683 18 14.0002 18C14.9321 18 15.3978 18 15.7654 17.8478C16.2554 17.6448 16.6447 17.2554 16.8477 16.7654C16.9999 16.3978 17 15.932 17 15.0001Z" />
+        </svg>
+        Home
+      </a>
+      <a href="profile.html">
+        <svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M15 19C15 15.134 11.866 12 8 12C4.13401 12 1 15.134 1 19M8 9C5.79086 9 4 7.20914 4 5C4 2.79086 5.79086 1 8 1C10.2091 1 12 2.79086 12 5C12 7.20914 10.2091 9 8 9Z" />
+        </svg>
+        Profile
+      </a>
+      <a href="leaderboard.html" class="active">
+        <svg class="active" width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M1 19V3.00001M17 13.6867V2.31324C11.1818 6.86261 6.81818 -2.23607 1 2.3133V13.6867C6.81818 9.13729 11.1818 18.236 17 13.6867Z" />
+        </svg>
+        Leaderboard
+      </a>
+      <a href="prizes.html">
+        <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M10 18H16.4C16.9601 18 17.2405 18 17.4544 17.891C17.6425 17.7951 17.7948 17.6422 17.8906 17.454C17.9996 17.2401 18 16.96 18 16.4V11.6C18 11.0399 17.9996 10.7599 17.8906 10.546C17.7948 10.3579 17.6425 10.2049 17.4544 10.109C17.2405 10 16.9597 10 16.3996 10H11.5996M10 18V11.6M10 18H3.59961C3.03956 18 2.75981 18 2.5459 17.891C2.35774 17.7951 2.20487 17.6422 2.10899 17.454C2 17.2401 2 16.96 2 16.4V11.6C2 11.0399 2 10.7599 2.10899 10.546C2.20487 10.3579 2.35774 10.2049 2.5459 10.109C2.75981 10 3.03956 10 3.59961 10H8.39961M10 11.6C10 11.0399 10 10.7599 10.109 10.546C10.2049 10.3579 10.3577 10.2049 10.5459 10.109C10.7598 10 11.0396 10 11.5996 10M10 11.6C10 11.0399 9.99962 10.7599 9.89062 10.546C9.79475 10.3579 9.64254 10.2049 9.45438 10.109C9.24047 10 8.95966 10 8.39961 10M11.5996 10H17.3996C17.9597 10 18.2405 9.99998 18.4544 9.89099C18.6425 9.79512 18.7948 9.64218 18.8906 9.45401C18.9996 9.2401 19 8.96003 19 8.39998V7.59998C19 7.03992 18.9996 6.75993 18.8906 6.54602C18.7948 6.35786 18.6425 6.20487 18.4544 6.10899C18.2405 6 17.9597 6 17.3996 6H11.5996C11.0396 6 10.7598 6 10.5459 6.10899C10.3577 6.20487 10.2049 6.35786 10.109 6.54602C10 6.75993 10 7.03992 10 7.59998M11.5996 10C11.0396 10 10.7598 9.99998 10.5459 9.89099C10.3577 9.79512 10.2049 9.64218 10.109 9.45401C10 9.2401 10 8.96003 10 8.39998M8.39961 10H2.59961C2.03956 10 1.75981 9.99998 1.5459 9.89099C1.35774 9.79512 1.20487 9.64218 1.10899 9.45401C1 9.2401 1 8.96003 1 8.39998V7.59998C1 7.03992 1 6.75993 1.10899 6.54602C1.20487 6.35786 1.35774 6.20487 1.5459 6.10899C1.75981 6 2.03956 6 2.59961 6H8.39961C8.95966 6 9.24047 6 9.45438 6.10899C9.64254 6.20487 9.79475 6.35786 9.89062 6.54602C9.99962 6.75993 10 7.03992 10 7.59998M8.39961 10C8.95966 10 9.24047 9.99998 9.45438 9.89099C9.64254 9.79512 9.79475 9.64218 9.89062 9.45401C9.99962 9.2401 10 8.96003 10 8.39998M10 8.39998V7.59998M10 3.5V6M10 3.5C10 2.11929 11.1193 1 12.5 1C13.8807 1 15 2.11929 15 3.5C15 4.88071 13.8807 6 12.5 6H10M10 3.5C10 2.11929 8.88071 1 7.5 1C6.11929 1 5 2.11929 5 3.5C5 4.88071 6.11929 6 7.5 6H10" />
+        </svg>
+        Prizes
+      </a>
+    </div>
+    <div class="overlay hidden "></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
